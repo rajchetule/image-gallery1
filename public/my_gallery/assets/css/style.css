@@ -1,0 +1,50 @@
+/*image gallary*/
+/*generic css*/
+.container-fluid, .container-fluid .row, .container-fluid .row .col{margin: 0; padding: 0;}
+.container{max-width: 1200px; margin:auto;}
+
+/*banner section */
+.banner{height: 80%;}
+.bannner .carousel-inner .carousel-item img{height:500px;}
+
+.category a{text-decoration: none; color: black;font-weight: bolder;}
+.category a img{width: 330px; height: 250px;}
+.category .image_pkt{position: relative;}
+.category .image_pkt p span{background-color:#1FB3E2; color: white; padding:5px 70px; font-size: 1.5em; }
+.category .image_pkt .sub_pkt{bottom:39px;right:0px;}
+/*logo section*/  /*footer section*/
+.img_logo{background-color:rgba(255, 255, 255, 0.8);border-radius:50%;width:100px;height: 100px; top: -50px;left: 25%;}
+.footer1{background-color: #B8B8B8;}
+.footer1 a{text-decoration: none; color: black; font-size: 1rem; }
+
+/*About section*/
+.ask_us img{width:100%;}
+
+/* review section */
+.review .carousel-inner img{width: 120px;}
+
+/*contact section*/
+.contact {background: #FFFFFF;width: 900px;height: 650px;margin: 5% auto;position: relative;}
+.contact .map {width: 100%; float: left;}
+.contact .contact-form {width: 53%;margin-left: 2%;float: left;}
+.contact .contact-form .title {font-size: 2.5em;/*font-family: "Roboto", sans-serif;*/font-weight: 700; color: #242424;margin: 5% 8%;}
+.contact .contact-form .subtitle {font-size: 1.2em;font-weight: 400; margin: 0 4% 5% 8%;}
+.contact .contact-form input,.contact .contact-form textarea {width: 330px;padding: 3%;margin: 2% 8%;color: #242424;border: 1px solid #B7B7B7;}
+.contact .contact-form input::placeholder,.contact .contact-form textarea::placeholder {color: #242424;}
+.contact .contact-form .btn-send {background: #A383C9;width: 180px;height: 60px; color: #FFFFFF;font-weight: 700;margin: 2% 8%;border: none;}
+/*feedback section*/
+.feedback{padding: 	100px 0;}
+
+/*media querry*/
+@media (max-width: 991.98px) {
+	.category a img{width: 250px; height: 200px;}
+	.category .image_pkt p span{padding:3px 40px; font-size: 1.2em; }
+	.category .image_pkt .sub_pkt{bottom:30px;right:0px;}
+	h3{font-size: 1.4em;}
+	h2{font-size: 1.5em;}
+	h5{font-size: 1.1em;}
+	p,a{font-size: 1em;}
+
+
+}
+
